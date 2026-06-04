@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sitirath - Portfolio</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', sans-serif; background: #050510; color: white; }
+nav { display: flex; justify-content: space-between; align-items: center; padding: 25px 60px; border-bottom: 1px solid rgba(255,255,255,0.05); }
+.logo { font-size: 20px; font-weight: 700; background: linear-gradient(90deg, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+ul { display: flex; gap: 30px; list-style: none; color: rgba(255,255,255,0.6); font-size: 14px; cursor: pointer; }
+.hero { text-align: center; padding: 100px 60px 60px; }
+.tag { display: inline-block; background: rgba(56,189,248,0.1); border: 1px solid rgba(56,189,248,0.3); color: #38bdf8; padding: 6px 18px; border-radius: 50px; font-size: 12px; letter-spacing: 2px; margin-bottom: 25px; }
+h1 { font-size: 52px; font-weight: 800; margin-bottom: 20px; }
+h1 span { background: linear-gradient(90deg, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.subtitle { color: rgba(255,255,255,0.5); font-size: 18px; max-width: 500px; margin: 0 auto 50px; line-height: 1.7; }
+.buttons { display: flex; gap: 15px; justify-content: center; margin-bottom: 80px; }
+.btn-primary { background: linear-gradient(90deg, #38bdf8, #818cf8); color: white; border: none; padding: 14px 32px; border-radius: 50px; font-size: 15px; font-weight: 600; cursor: pointer; }
+.btn-secondary { background: transparent; color: white; border: 1px solid rgba(255,255,255,0.2); padding: 14px 32px; border-radius: 50px; font-size: 15px; cursor: pointer; }
+.skills { display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; margin-bottom: 80px; }
+.skill { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 10px 20px; border-radius: 10px; font-size: 14px; color: rgba(255,255,255,0.7); }
+.projects { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; max-width: 800px; margin: 0 auto 80px; padding: 0 60px; }
+.card { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 15px; padding: 25px; }
+.card h3 { font-size: 16px; margin-bottom: 10px; color: #38bdf8; }
+.card p { font-size: 13px; color: rgba(255,255,255,0.5); line-height: 1.6; }
+.contact { text-align: center; padding: 60px; background: rgba(255,255,255,0.02); }
+.contact h2 { font-size: 32px; margin-bottom: 15px; }
+.contact p { color: rgba(255,255,255,0.5); margin-bottom: 30px; }
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">Sitirath.dev</div>
+  <ul>
+    <li>Accueil</li>
+    <li>Projets</li>
+    <li>Contact</li>
+  </ul>
+</nav>
+<div class="hero">
+  <div class="tag">DISPONIBLE POUR MISSIONS</div>
+  <h1>Bonjour, je suis <span>Sitirath</span></h1>
+  <p class="subtitle">Développeuse Web & Spécialiste IA. Je crée des expériences digitales modernes et intelligentes.</p>
+  <div class="buttons">
+    <button class="btn-primary">Voir mes projets</button>
+    <button class="btn-secondary">Me contacter →</button>
+  </div>
+  <div class="skills">
+    <div class="skill">HTML</div>
+    <div class="skill">CSS</div>
+    <div class="skill">JavaScript</div>
+    <div class="skill">Intelligence Artificielle</div>
+    <div class="skill">Web Design</div>
+  </div>
+</div>
+<div class="projects">
+  <div class="card">
+    <h3>Luxora Landing Page</h3>
+    <p>Landing page premium avec design violet et animations modernes.</p>
+  </div>
+  <div class="card">
+    <h3>Web Development</h3>
+    <p>Sites web responsives et modernes pour entreprises et freelances.</p>
+  </div>
+  <div class="card">
+    <h3>AI Content</h3>
+    <p>Création de contenu professionnel assisté par intelligence artificielle.</p>
+  </div>
+  <div class="card">
+    <h3>UI/UX Design</h3>
+    <p>Interfaces utilisateur modernes et expériences digitales optimisées.</p>
+  </div>
+</div>
+<div class="contact">
+  <h2>Travaillons ensemble ! 🚀</h2>
+  <p>Disponible pour des missions freelance sur Fiverr et Upwork</p>
+  <button class="btn-primary">Me contacter</button>
+</div>
+</body>
+</html>
